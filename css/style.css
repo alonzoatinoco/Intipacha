@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Caveat&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Share+Tech+Mono&display=swap');
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+html{
+    font-size: 62.5%; /*<> 10px <>1em*/
+    
+}
+
+body{
+    font-family: 'Lato', sans-serif;/*1 por proyecto
+    etica general*/
+    font-size: 1.6rem;
+}
+/*-------------header---------*/
+.intipacha-header{
+    background-image: url("../asset/img/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-attachment: fixed;
+    
+}
+/*logo*/
+.nav-container .intipacha-logo{
+    width: 10%;
+    height: 100%;
+    
+}
+.intipacha-logo img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+}
+/*logo*/
+
+/*---------------nav-container-----------------*/
+
+/*links e iconos*/
+
+.nav-container{
+    width: 100%;
+    height: 14.7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.icon-nav{
+    width: 30%;
+}
+.icon-nav .icon-nav__list{
+    display: flex;
+   
+    padding-top: 0.3%;
+    padding-right: 1%;
+    list-style: none;
+
+}
+.icon-nav .icon-nav__list .icon-nav__order{
+    display: flex;
+    /* margin-right: 2%; */
+    padding-right: 4%;
+    /* width: 25%;
+    height: 10%; */
+}
+.icon-nav .icon-nav__list .icon-nav__link{
+    width: 50px;
+    
+}
+.icon-nav .icon-nav__list .icon-nav__link img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+/*link e iconos*/
+
+/*---navegador----*/
+.main-nav{
+    width: 30%;
+    font-size: 1em;
+}
+.main-nav .main-nav__list{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+.main-nav .main-nav__list li{
+    padding: 1.5em  0 ;
+    
+}
+
+.main-nav .main-nav__list li .main-nav__link{
+    padding: 1.5em 2em;
+    text-decoration: none;
+    color: white;
+}
+.main-nav .main-nav__list li .main-nav__link:hover{
+    /* background-color: #8b8888c5; */
+    color: #f6c425;
+}
+/*---navegador----*/
+
+/*---------------nav-container-----------------*/
+
+/*-------------img--------*/
+.text-principal{
+    width: 100%;
+    height: 85.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-principal img{
+    width: 25%;
+    height: 35%;
+
+}
+/*-------------img--------*/
+/*-------------header---------*/
+
+/*-------------main-----*/
+/*-------------intipacha-main*/
+.intipacha-main{
+    background-image: url("../asset/img/seccion-two.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45em;
+    display: flex;
+    padding: 0 20% ;
+    padding-left: 18.5%;
+    flex-wrap: wrap;
+    font-family: 'Caveat', Alex Brush;
+}
+.intipacha-historia{
+    display: flex;
+    margin-top: 2%;
+    width: 100%;
+    height: 27%;/*falta  agregar tamaño de letra y tipo de letra*/
+    background-color: #f4f4f4;
+      
+}
+.intipacha-main p{
+    font-size: 1.39em;
+
+}
+.intipacha-main h4{
+    font-size: 1.7em;
+    margin-bottom: 1%;
+}
+.subray::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color:#e6d59f ;
+    margin-top: 1px;
+    
+}
+/*-------------intipacha-main*/
+
+/*---best-----*/
+.intipacha-main .best{
+    width: 55%;
+    height: 50px;
+    margin: 0.5% auto;
+    
+}
+.intipacha-main .best img{
+    width: 100%;
+    height: 100%;
+}
+.intipacha-historia .intipacha-historia__text{
+    width: 80%;
+    /* padding: 2% 0; */
+    padding: 1% 0 ;
+}
+.intipacha-historia .intipacha-historia__text p{
+    font-size: 1.8em;
+    padding: 1%;
+    padding-top: 3%;
+    /* font-weight: 700; */
+    
+}
+.intipacha-historia .intipacha-historia__img{
+    width: 50%;
+    height: 100%;
+}
+.intipacha-historia .intipacha-historia__img img{
+    width: 100%;
+    height: 100%;
+}
+/*---best-----*/
+/*-----intipacha-platos-----*/
+.intipacha-platos{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 54%;
+    
+}
+.intipacha-platos .intipacha-platos__best{
+    width: 30%;
+    box-shadow: -1px 2px 2px 0px rgba(148,148,148,0.6);
+    background-color: #f4f4f4;
+} 
+.intipacha-platos .intipacha-platos__best .platos-text{
+    padding: 1.5%;
+}
+.intipacha-platos .intipacha-platos__best .platos-img{
+    width: 100%;
+    height: 57%;
+}
+.intipacha-platos .intipacha-platos__best .platos-img img{
+    width: 100%;
+    height: 100%;
+}
+/*-----intipacha-platos-----*/
+
+/*-------------main-----*/
+/*-------------attention--------------*/
+.intipacha-attention{
+    background-image: url("../asset/img/horario-fondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intipacha-attention figure{
+        width: 50%;
+        height: 90%;
+    
+}
+.intipacha-attention figure img{
+    width: 100%;
+    height: 100%;
+}
+
+/*-------------attention--------------*/
+
+/*------------card----------*/
+.intipacha-card{
+    background-image: url("../asset/img/tabla-menu.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50em;
+    padding: 1% 0;
+    font-family: 'Caveat';
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.intipacha-card figure{
+    width: 20%;
+    height: 15%;
+    margin: 1% 40%;
+}
+.intipacha-card figure img{
+    width: 100%;
+    height: 100%;
+}
+.card-conteiner{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.card-text{
+    margin-left: -14%;
+}
+.intipacha-card  .card-conteiner .card-conteiner__candy{
+    margin: 0 -15%;
+    display: flex;
+    justify-content: space-between;
+}
+.intipacha-card  .card-conteiner  li {
+    list-style:none;
+}
+.intipacha-card  .card-conteiner{
+    font-size: 2em;
+    
+}
+.intipacha-card  .card-conteiner article{
+    margin: 0 1%;
+}
+.color-gold{
+    color: #bf9204;
+}
+.color-white{
+    color: #e5e5e5;
+}
+.color-gold__intense{
+    color: #f6c425;
+}
+
+
+/*------------card----------*/
+
+/*-----------Footer-------------*/
+.footer-main{
+    background-color: #161414;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 8em;
+    font-family: 'Caveat';
+    font-size: 1.2em;
+    
+    
+}
+.footer-main .footer-datos{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    /* justify-items: center;
+    align-content:center;
+    padding: 1em 0; */
+    /* margin-right: 1%; */
+}
+.footer-main .footer-datos p a{
+    text-decoration: none;
+    color: white;
+}
+.background-gold{
+    background-color: #bf9020;
+}
+.footer-datos figure{
+    width:60%;
+    /* height: 60px; */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 30%;
+    margin-bottom: 6%;
+    margin-top: 4%;
+
+}
+.footer-datos .footer-datos__icons{
+    width: 70%;
+}
+.footer-datos figure img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*-----------Footer-------------*/
+
+/*card.html*/
+/*nav-general*/
+.nav-general{
+    background-color: #161414;
+    
+    
+}
+.nav-general .nav-container .intipacha-logo {
+   width: 6%;
+   height: 100%;
+}
+
+.nav-general .nav-container .icon-nav {
+   width: 18%;
+}
+
+.main-card .intipacha-card{
+   height: 42em;
+   padding: 0.5% 0px;
+} 
+
+.card{
+   overflow: hidden;
+}
+.main-card .intipacha-card figure {
+   
+   height: 12%;
+}
+/*nav-general*/
+/*card.html*/
+
+/*platos.html*/
+.body-plato{
+    background-color: #ffffffd5;
+}
+.platos-main{
+    margin: 0 10%;
+    font-family: 'Caveat', Alex Brush;
+    
+}
+.platos-main h2{
+    font-size: 3em;
+    margin: 2% 0;
+    text-align: center;
+}
+.platos-main .intipacha-platos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.platos-main .intipacha-platos .intipacha-platos__best{
+    margin: 1%;
+}
+.platos-main .intipacha-platos .intipacha-platos__best h4{
+    font-size: 1.8em;
+}
+.platos-main .intipacha-platos .intipacha-platos__best p{
+   font-size: 1.4em;
+}
+
+
+/*platos.html*/
+
+
+
+
+@media (max-width:1440px){
+    .main-nav {
+        width: 37%;
+    }
+    .intipacha-main{
+        height: 50em;
+    }
+    .intipacha-platos .intipacha-platos__best {
+        
+        height: 435px;
+    }
+    .intipacha-attention figure {
+        width: 60%;
+        height: 65%;
+    }
+}
+@media (max-width: 1250px){
+    .nav-container{
+        margin-right: 15%;
+    }
+
+    .main-nav{
+        width: 61%;
+    }
+    .intipacha-logo{
+        width: 13%;
+    }
+    .icon-nav {
+        width: 21%;
+    }
+    .intipacha-main p {
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 1024px){
+    .intipacha-historia {
+        height: 35%;
+        
+    }
+    .intipacha-main{
+        padding: 0 10%;
+        padding-left: 14.5%;
+    }
+    .intipacha-historia .intipacha-historia__text p {
+        font-size: 2em;
+    }
+}
+@media (max-width: 950px){
+    .nav-container .intipacha-logo{
+        display: flex;
+        margin: 0 auto;
+        width: 15%;
+    }
+    .main-nav{
+        width: 78%
+    }
+    
+    .nav-container{
+        display: block;
+        margin-right: 0;
+    }
+    .nav-container .icon-nav{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .icon-nav .icon-nav__list .icon-nav__order {
+        padding-right: 10%;
+    }
+    .text-principal img {
+        
+        width: 65%;
+    }
+}
+@media (max-width: 768px){
+    .main-nav{
+        width: 85%
+    }
+    
+    .intipacha-header{
+        display: block;
+        
+    }
+    .nav-container .intipacha-logo {
+        margin: 0 auto;
+        width: 40%;
+    }
+    .nav-container{
+        margin: 0 auto;
+    }
+    .nav-container .icon-nav{
+        
+        width: 97%;
+    }
+    
+    .text-principal img {
+         width: 96%;
+        height: 30%;
+    }
+    .text-principal {
+        
+        align-items: center;
+        /* margin: 20% 0; */
+    }
+    .intipacha-historia .intipacha-historia__text p {
+        font-size: 1.8em;
+    }
+    .intipacha-main p {
+        font-size: 1.1em;
+    }
+    .intipacha-attention figure {
+        width: 70%;
+        
+    }
+}
+@media (max-width: 425px){
+    .main-nav {
+        width: 92%;
+    }
+    .main-nav .main-nav__list li .main-nav__link {
+        padding: 0.5em;
+    }
+    .nav-container .intipacha-logo {
+        width: 35%;
+    }
+    .intipacha-historia {
+        height: 62%;
+        display: block;
+    }
+    .intipacha-main{
+        padding: 0 2%;
+        height: auto;
+    }
+    .intipacha-historia .intipacha-historia__text {
+        width: 100%;
+    }
+    .intipacha-historia .intipacha-historia__img {
+        width: 100%;
+        height: 43%;
+    }
+    .intipacha-main .best {
+        width: 100%;
+        margin: 1.5% auto;
+    }
+    .intipacha-platos {
+        display: block;
+    }
+    .intipacha-platos .intipacha-platos__best {
+        width: 100%;
+        margin: 3% 0;
+    }
+    .intipacha-main p {
+        font-size: 1.6em;
+    }
+    .footer-main{
+    display: block;
+    
+    height: auto;
+    }
+    .footer-main .footer-datos {
+        width: 100%;
+    }
+    .footer-datos figure {
+        width: 10%;
+    }
+}
+
+@media (max-width: 360px){
+    .nav-container .main-nav .main-nav__list{
+        display: block;
+        text-align: center;
+    }
+    .text-principal {
+        align-items: center;
+        margin: 0;
+        height: 100%;
+    }
+    /* .nav-container .icon-nav {
+        margin-right: 10%;
+    } */
+    .nav-container .intipacha-logo {
+        /* display: flex;
+        margin: 0 auto; */
+        width: 35%;
+    }
+    .main-nav{
+        width: 100%
+    }
+}
+
+@media (max-width: 320px){
+    .intipacha-main{
+        padding: 0 1%;
+        height: 100%;
+    }
+    .intipacha-historia {
+        display: block;
+        height: 80%;
+    }
+    .intipacha-historia .intipacha-historia__text{
+        width: 100%;
+    }
+    .intipacha-historia .intipacha-historia__text p {
+        text-align: center;
+        padding: 2%;
+        font-size: 1.5em;
+    }
+    .intipacha-historia .intipacha-historia__img {
+        width: 100%;
+        height: 45%;
+    }
+   
+    .intipacha-main .best {
+        width: 90%;
+        
+    }
+    .intipacha-platos {
+        display: block;
+    }
+    .intipacha-platos .intipacha-platos__best {
+        width: 100%;
+        margin: 3% 0;
+    }
+    .icon-nav .icon-nav__list .icon-nav__order {
+        padding-right: 0%;
+    }
+    .intipacha-main p {
+        font-size: 1.4em;
+    }
+}
